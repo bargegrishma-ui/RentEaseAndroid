@@ -1,0 +1,67 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Cozy Interior Background -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M0,0h400v200h-400z" />
+    <!-- Wooden Flooring -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M0,140h400v60h-400z" />
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M0,150h400v4h-400z" />
+    <path
+        android:fillColor="#BCAAA4"
+        android:pathData="M0,175h400v4h-400z" />
+    <!-- Big Window Looking Outside -->
+    <path
+        android:fillColor="#E0F7FA"
+        android:pathData="M50,30h110v95h-110z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M50,75h110v4h-110z" />
+    <path
+        android:fillColor="#80DEEA"
+        android:pathData="M103,30h4v95h-4z" />
+    <!-- Sofa / Couch in Studio -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M200,95h160v45h-160z" />
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M190,110h25v30h-25z" />
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M345,110h25v30h-25z" />
+    <!-- Pillows -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M220,105h25v20h-25z" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M315,105h25v20h-25z" />
+    <!-- Modern Floor Lamp -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M175,40h2v105h-2z" />
+    <path
+        android:fillColor="#FFA726"
+        android:pathData="M166,35h20l-4,15h-12z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M168,143h16v4h-16z" />
+    <!-- Coffee Table -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M230,150h90v10h-90z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M245,160h6v15h-6z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M299,160h6v15h-6z" />
+</vector>

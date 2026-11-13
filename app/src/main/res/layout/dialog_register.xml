@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="@color/text_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="18dp"
+        android:text="Register your details to save directly into SQLite database."
+        android:textColor="@color/text_gray"
+        android:textSize="13sp" />
+
+    <!-- Full Name Field -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="👤"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etRegName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Full Name (e.g. Rahul Sharma)"
+            android:inputType="textPersonName"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_light"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Email Field -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="✉"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_light"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Phone Field -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="📞"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etRegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Phone Number (10 digits)"
+            android:inputType="phone"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_light"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Password Field -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="🔒"
+            android:textColor="@color/text_gray"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etRegPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Password (min 6 chars)"
+            android:inputType="textPassword"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/text_light"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginEnd="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnRegSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_green"
+            android:paddingHorizontal="20dp"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

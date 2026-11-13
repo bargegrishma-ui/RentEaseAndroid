@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Sky / Background -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M0,0h400v200h-400z" />
+    <!-- Ground -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M0,170h400v30h-400z" />
+    <!-- Tall Apartment Tower -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M130,30h140v140h-140z" />
+    <!-- Tower Outline Accent -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M130,30h140v8h-140z" />
+    <!-- Tower Windows Grid -->
+    <!-- Row 1 -->
+    <path android:fillColor="#0288D1" android:pathData="M150,45h20v18h-20z" />
+    <path android:fillColor="#0288D1" android:pathData="M190,45h20v18h-20z" />
+    <path android:fillColor="#0288D1" android:pathData="M230,45h20v18h-20z" />
+    <!-- Row 2 -->
+    <path android:fillColor="#29B6F6" android:pathData="M150,72h20v18h-20z" />
+    <path android:fillColor="#29B6F6" android:pathData="M190,72h20v18h-20z" />
+    <path android:fillColor="#29B6F6" android:pathData="M230,72h20v18h-20z" />
+    <!-- Row 3 -->
+    <path android:fillColor="#0288D1" android:pathData="M150,99h20v18h-20z" />
+    <path android:fillColor="#0288D1" android:pathData="M190,99h20v18h-20z" />
+    <path android:fillColor="#0288D1" android:pathData="M230,99h20v18h-20z" />
+    <!-- Row 4 -->
+    <path android:fillColor="#29B6F6" android:pathData="M150,126h20v18h-20z" />
+    <path android:fillColor="#29B6F6" android:pathData="M190,126h20v18h-20z" />
+    <path android:fillColor="#29B6F6" android:pathData="M230,126h20v18h-20z" />
+    <!-- Glass Entrance -->
+    <path
+        android:fillColor="#01579B"
+        android:pathData="M185,150h30v20h-30z" />
+    <!-- Side Building Left -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M70,80h50v90h-50z" />
+    <path android:fillColor="#81D4FA" android:pathData="M80,95h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M100,95h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M80,120h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M100,120h12v15h-12z" />
+    <!-- Side Building Right -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M280,70h50v100h-50z" />
+    <path android:fillColor="#81D4FA" android:pathData="M290,85h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M310,85h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M290,110h12v15h-12z" />
+    <path android:fillColor="#81D4FA" android:pathData="M310,110h12v15h-12z" />
+</vector>

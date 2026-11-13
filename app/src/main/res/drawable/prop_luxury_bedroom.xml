@@ -1,0 +1,77 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Wall background (Soft warm neutral) -->
+    <path
+        android:fillColor="#ECE5DD"
+        android:pathData="M0,0 H400 V240 H0 Z" />
+    <!-- Feature Accent Wall Behind Bed -->
+    <path
+        android:fillColor="#3D4A54"
+        android:pathData="M70,20 H330 V170 H70 Z" />
+    <!-- Vertical wood slat panels on feature wall -->
+    <path android:fillColor="#4F5D68" android:pathData="M90,20 H94 V170 H90 Z" />
+    <path android:fillColor="#4F5D68" android:pathData="M110,20 H114 V170 H110 Z" />
+    <path android:fillColor="#4F5D68" android:pathData="M286,20 H290 V170 H286 Z" />
+    <path android:fillColor="#4F5D68" android:pathData="M306,20 H310 V170 H306 Z" />
+    <!-- Polished Hardwood Floor -->
+    <path
+        android:fillColor="#A27B5C"
+        android:pathData="M0,170 H400 V240 H0 Z" />
+    <path
+        android:fillColor="#8C6545"
+        android:pathData="M0,170 H400 V174 H0 Z" />
+    <!-- Luxury Soft Area Rug -->
+    <path
+        android:fillColor="#DCD7C9"
+        android:pathData="M60,185 H340 V235 H60 Z" />
+    <!-- Padded Leather Headboard -->
+    <path
+        android:fillColor="#2C363F"
+        android:pathData="M110,75 H290 A10,10 0 0,1 300,85 V170 H100 V85 A10,10 0 0,1 110,75 Z" />
+    <!-- Mattress & Bed Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M105,125 H295 V185 H105 Z" />
+    <!-- Crisp White Comforter / Duvet -->
+    <path
+        android:fillColor="#F4F6F8"
+        android:pathData="M105,145 H295 V195 H105 Z" />
+    <!-- Velvet Bed Runner (Emerald Green) -->
+    <path
+        android:fillColor="#047857"
+        android:pathData="M105,175 H295 V195 H105 Z" />
+    <!-- Pillows -->
+    <!-- Back Pillows -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M115,115 H195 A6,6 0 0,1 201,121 V145 H109 V121 A6,6 0 0,1 115,115 Z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M205,115 H285 A6,6 0 0,1 291,121 V145 H199 V121 A6,6 0 0,1 205,115 Z" />
+    <!-- Front Accent Pillows (Gold / Amber) -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M130,128 H180 V150 H130 Z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M220,128 H270 V150 H220 Z" />
+    <!-- Left Nightstand -->
+    <path
+        android:fillColor="#3F4E4F"
+        android:pathData="M50,140 H95 V185 H50 Z" />
+    <!-- Right Nightstand -->
+    <path
+        android:fillColor="#3F4E4F"
+        android:pathData="M305,140 H350 V185 H305 Z" />
+    <!-- Ambient Pendant Lamps (Left & Right) -->
+    <path android:fillColor="#D4AF37" android:pathData="M71,20 H73 V105 H71 Z" />
+    <path android:fillColor="#FBBF24" android:pathData="M64,105 H80 L76,120 H68 Z" />
+    <path android:fillColor="#FEF3C7" android:pathData="M60,120 H84 V135 H60 Z" />
+
+    <path android:fillColor="#D4AF37" android:pathData="M326,20 H328 V105 H326 Z" />
+    <path android:fillColor="#FBBF24" android:pathData="M319,105 H335 L331,120 H323 Z" />
+    <path android:fillColor="#FEF3C7" android:pathData="M315,120 H339 V135 H315 Z" />
+</vector>

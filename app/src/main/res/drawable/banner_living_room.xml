@@ -1,0 +1,102 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+    <!-- Warm wall background -->
+    <path
+        android:fillColor="#EBE3D5"
+        android:pathData="M0,0 H400 V240 H0 Z" />
+    <!-- Wooden floor -->
+    <path
+        android:fillColor="#D0B8A8"
+        android:pathData="M0,175 H400 V240 H0 Z" />
+    <path
+        android:fillColor="#B89F8B"
+        android:pathData="M0,175 H400 V179 H0 Z" />
+    <!-- Large bright window on left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 H140 V155 H30 Z" />
+    <path
+        android:fillColor="#C4DFE6"
+        android:pathData="M35,35 H135 V150 H35 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M83,35 H87 V150 H83 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,90 H135 V94 H35 Z" />
+    <!-- Modern wall art frame on right -->
+    <path
+        android:fillColor="#3E362E"
+        android:pathData="M270,35 H360 V95 H270 Z" />
+    <path
+        android:fillColor="#F3EEEA"
+        android:pathData="M275,40 H355 V90 H275 Z" />
+    <path
+        android:fillColor="#00875A"
+        android:pathData="M290,75 L315,50 L340,75 Z" />
+    <path
+        android:fillColor="#E57373"
+        android:pathData="M315,58 A6,6 0 1,0 315,46 A6,6 0 1,0 315,58 Z" />
+    <!-- Stylish floor lamp -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M155,50 H175 L180,85 H150 Z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M164,85 H166 V185 H164 Z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M152,185 H178 V189 H152 Z" />
+    <!-- Potted Monstera plant -->
+    <path
+        android:fillColor="#D35400"
+        android:pathData="M340,150 L365,150 L360,185 L345,185 Z" />
+    <path
+        android:fillColor="#27AE60"
+        android:pathData="M352,130 Q370,120 375,140 Q355,145 352,150 Z" />
+    <path
+        android:fillColor="#2ECC71"
+        android:pathData="M352,125 Q335,110 330,135 Q348,142 352,150 Z" />
+    <path
+        android:fillColor="#1E824C"
+        android:pathData="M352,115 Q355,95 365,115 Q358,135 352,150 Z" />
+    <!-- Cozy sofa body -->
+    <path
+        android:fillColor="#4A6572"
+        android:pathData="M185,115 H325 A12,12 0 0,1 337,127 V170 H173 V127 A12,12 0 0,1 185,115 Z" />
+    <!-- Sofa seating cushions -->
+    <path
+        android:fillColor="#34495E"
+        android:pathData="M178,145 H332 A6,6 0 0,1 338,151 V175 H172 V151 A6,6 0 0,1 178,145 Z" />
+    <!-- Sofa pillows -->
+    <path
+        android:fillColor="#E67E22"
+        android:pathData="M190,130 H215 V155 H190 Z" />
+    <path
+        android:fillColor="#F1C40F"
+        android:pathData="M295,130 H320 V155 H295 Z" />
+    <!-- Sofa legs -->
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M185,175 H190 V185 H185 Z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M320,175 H325 V185 H320 Z" />
+    <!-- Coffee table -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M210,170 H290 A4,4 0 0,1 294,174 V178 H206 V174 A4,4 0 0,1 210,170 Z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M220,178 H223 V192 H220 Z" />
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M277,178 H280 V192 H277 Z" />
+    <!-- Soft warm rug under coffee table -->
+    <path
+        android:fillColor="#DFD8C8"
+        android:pathData="M170,188 H330 A8,8 0 0,1 338,196 V198 H162 V196 A8,8 0 0,1 170,188 Z" />
+</vector>

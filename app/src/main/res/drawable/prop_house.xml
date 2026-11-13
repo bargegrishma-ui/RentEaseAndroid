@@ -1,0 +1,80 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="200">
+    <!-- Sky / Background -->
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M0,0h400v200h-400z" />
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M60,45m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0" />
+    <!-- Lawn / Grass -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M0,150h400v50h-400z" />
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M0,165h400v35h-400z" />
+    <!-- Chimney -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M270,40h24v45h-24z" />
+    <path
+        android:fillColor="#6D4C41"
+        android:pathData="M267,35h30v7h-30z" />
+    <!-- House Base -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M120,95h160v65h-160z" />
+    <!-- Roof Triangular -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M100,95L200,30L300,95Z" />
+    <!-- Roof Trim -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M95,95L200,26L305,95L300,99L200,34L100,99Z" />
+    <!-- Attic Circular Window -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,68m-12,0a12,12 0,1,1 24,0a12,12 0,1,1 -24,0" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M200,68m-10,0a10,10 0,1,1 20,0a10,10 0,1,1 -20,0" />
+    <!-- House Door -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M185,115h30v45h-30z" />
+    <!-- Door Knob -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M210,138m-2,0a2,2 0,1,1 4,0a2,2 0,1,1 -4,0" />
+    <!-- Left Window -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M135,112h32v30h-32z" />
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M137,114h28v26h-28z" />
+    <!-- Right Window -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M233,112h32v30h-32z" />
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M235,114h28v26h-28z" />
+    <!-- Pathway -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M185,160L170,200h60L215,160Z" />
+    <!-- Shrubs -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="M105,150m-14,0a14,14 0,1,1 28,0a14,14 0,1,1 -28,0" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M295,150m-14,0a14,14 0,1,1 28,0a14,14 0,1,1 -28,0" />
+</vector>

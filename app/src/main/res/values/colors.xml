@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RentEase Emerald Green Theme from Mockup -->
+    <color name="green">#00875A</color>
+    <color name="green_dark">#006644</color>
+    <color name="green_light">#E6F4EA</color>
+    <color name="green_tint">#ECFDF5</color>
+    
+    <color name="text_dark">#1E293B</color>
+    <color name="text_gray">#64748B</color>
+    <color name="text_light">#94A3B8</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="bg">#F8FAFC</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="border_gray">#E2E8F0</color>
+    <color name="input_bg">#F8FAFC</color>
+    
+    <color name="red">#EF4444</color>
+    <color name="red_light">#FEE2E2</color>
+    <color name="amber">#F59E0B</color>
+    <color name="amber_light">#FEF3C7</color>
+    
+    <color name="nav_inactive">#94A3B8</color>
+    <color name="nav_active">#00875A</color>
+</resources>

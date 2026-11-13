@@ -1,0 +1,66 @@
+﻿<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+    <!-- Map Base Ground -->
+    <path
+        android:fillColor="#E8ECEF"
+        android:pathData="M0,0h400v180h-400z" />
+    <!-- Green Park Area -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M20,20h100v60h-100z" />
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M250,110h120v50h-120z" />
+    <!-- Water Canal / Lake -->
+    <path
+        android:fillColor="#B3E5FC"
+        android:pathData="M0,130 C80,120 120,150 200,140 C280,130 320,160 400,150 L400,180 L0,180 Z" />
+    <!-- Roads Network -->
+    <!-- Major Avenue Horizontal -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,85h400v20h-400z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M0,94h400v2h-400z" />
+    <!-- Major Avenue Vertical -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M190,0h20v180h-20z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M199,0h2v180h-2z" />
+    <!-- Secondary Diagonal Road -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,0 L190,85 L190,105 L30,0 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M210,105 L350,180 L370,180 L210,85 Z" />
+    <!-- City Blocks / Buildings -->
+    <path android:fillColor="#CFD8DC" android:pathData="M140,25h35v45h-35z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M230,25h45v45h-45z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M300,25h50v45h-50z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M50,120h45v35h-45z" />
+    <path android:fillColor="#CFD8DC" android:pathData="M120,120h50v35h-50z" />
+    <!-- Metro Line / Rail -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M0,40h400v4h-400z" />
+    <!-- Location Pin Pin Drop (Centered at 200, 95) -->
+    <!-- Pin Shadow -->
+    <path
+        android:fillColor="#30000000"
+        android:pathData="M190,105 a10,4 0 1,0 20,0 a10,4 0 1,0 -20,0" />
+    <!-- Red Pin -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M200,60 C188.95,60 180,68.95 180,80 C180,95 200,105 200,105 C200,105 220,95 220,80 C220,68.95 211.05,60 200,60 Z" />
+    <!-- White Circle inside Pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,74 a6,6 0 1,0 0.001,0 Z" />
+</vector>
